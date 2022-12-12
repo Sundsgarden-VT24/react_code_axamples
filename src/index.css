@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.container {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  background-color: black;
+  height: 5rem;
+  padding: 0 10%;
+}
+
+.header nav {
+  height: 100%;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.header li {
+  margin-top: 1.5rem;
+}
+
+.links {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.link__list li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.abouts {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.reuse-btn {
+  text-align: center;
+  padding: 0.7rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nametag {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0.3rem 0.3rem 0.5rem;
+  border: 3px solid black;
+}
+
+.nametag p {
+  margin: 0 1rem 0 1rem;
+}
+
+.card {
+  background-color: #c9fbf4;
+  color: #000;
+  border: 2px solid #5b9f96;
+  border-radius: 15px;
+  padding: 40px 50px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.card.reverse {
+  background-color: #000;
+  color: #fff;
+}
+
+.card h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.num-display {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background-color: #ffe4cb;
+  border: 2px solid #eba96c;
+  border-radius: 40px;
+  padding: 0.5rem;
+}
