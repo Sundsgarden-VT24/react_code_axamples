@@ -24,5 +24,3 @@ Card.propTypes = {
 };
 
 export default Card;
-
-//return <div className={`card ${reverse && "reverse"}`}>{children}</div>;
