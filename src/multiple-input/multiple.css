@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+
+/*
+#1b4639
+#4f8b81
+#95ddd4
+#d6fd6a
+*/
+
+body {
+  background-color: #000;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #4f8b81;
+}
+
+.form {
+  width: 60vw;
+  margin-top: 4rem;
+  background-color: #1b4639;
+  padding: 3rem;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #95ddd5;
+  color: white;
+  font-size: 1.2rem;
+  transition: all 0.5s;
+}
+
+.form label {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.friends {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-btn {
+  cursor: pointer;
+  background-color: #d6fd6a;
+  padding: 1.5rem 2rem;
+  border-radius: 40px;
+  margin-top: 1rem;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1b4639;
+}
+
+.form-btn:hover {
+  background-color: #51968a;
+  color: #d6fd6a;
+  transition: all 0.3s;
+}
+
+.item {
+  width: 60vw;
+  margin-top: 2rem;
+  background-color: #4f8b81;
+  padding: 3rem;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.item h4 {
+  font-size: 1.45rem;
+}
+
+.info {
+  background-color: #1b4639;
+  display: flex;
+  justify-content: center;
+  padding: 0.4rem;
+  width: 10vw;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
