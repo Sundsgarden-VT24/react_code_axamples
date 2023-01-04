@@ -1,7 +1,9 @@
+import Form from "./multiple-input/Form";
+
 function App() {
   return (
-    <div>
-      <h1>React code examples</h1>
+    <div className="container">
+      <Form />
     </div>
   );
 }
